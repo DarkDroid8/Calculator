@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <input type="text" name="screen" id="screen" placeholder="0">
+            <div class="button">
+                <button class="buttons" onclick="Clear()">AC</button>
+                <button class="buttons" onclick="display('/')">/</button>
+                <button class="buttons" onclick="display('*')">*</button>
+                <button class="buttons" onclick="del()">Del</button>
+                <button class="buttons" onclick="display('7')">7</button>
+                <button class="buttons" onclick="display('8')">8</button>
+                <button class="buttons" onclick="display('9')">9</button>
+                <button class="buttons" onclick="display('-')">-</button>
+                <button class="buttons" onclick="display('4')">4</button>
+                <button class="buttons" onclick="display('5')">5</button>
+                <button class="buttons" onclick="display('6')">6</button>
+                <button class="buttons" onclick="display('+')">+</button>
+                <button class="buttons" onclick="display('1')">1</button>
+                <button class="buttons" onclick="display('2')">2</button>
+                <button class="buttons" onclick="display('3')">3</button>
+                <button class="buttons" onclick="display('.')">.</button>
+                <button class="buttons" onclick="display('0')">0</button>
+                <button class="buttons" onclick="display('(')">(</button>
+                <button class="buttons" onclick="display(')')">)</button>
+                <button class="buttons equal" onclick="Calculate('=')">=</button>
+             </div>
+            </div>
+        </div>
+        <h4>Devoloped By - Rohit Majumder</h4>
+    </section>
+</body>
+<script src="cal.js"></script>
+</html>
